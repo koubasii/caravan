@@ -216,3 +216,47 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+
+/* すべての画面サイズで適用される設定 */
+.social i {
+  color:black;
+}
+/* タブレット横置きサイズ（1024px）以下の際に適用される設定 */
+@media screen and (max-width:1024px) {
+ main{
+   display:block;
+   
+ }
+  
+ .popular{
+   padding:30px;
+   margin-top:30px;
+     
+ }
+ 
+ .blog{
+   width:85%;
+   padding:30px;
+ }
+ 
+ .sidebar{
+   width:85%;
+ }
+ 
+ .instagram{
+   display:flex;
+   justify-content:center;
+   padding:30px;
+   width:100%;
+ }
+ 
+ 
+ .categories{
+   padding:30px;
+ }
+ 
+ footer{
+   width:100%;
+
+ }
